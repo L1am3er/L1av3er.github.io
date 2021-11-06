@@ -1,0 +1,59 @@
+* {
+	padding:0;
+	width: ;
+	height: 80px;
+	background:rgb(33,47,66);
+}
+nav{
+	float: right;
+
+}
+nav ul{
+	margin:15px;
+	padding:0;
+	list-style: none;
+
+}
+nav li{
+	display: inline-block;
+	margin-left: 10px;
+
+
+}
+nav a{
+	text-decoration: none;
+	line-height: 45px;
+	color: white;
+}
+.main{
+	width: 100%;
+	min-height: 300px;
+}
+.okno{
+	width: 100%;
+	height: 400px;
+	background:url(images/okno/3.jpg);
+	background-size:cover;
+	margin-bottom: 10px;
+}
+.img-box{
+width: 95%;
+column-count: 4;
+column-gap: 3px;
+margin: auto;
+
+}
+.image{
+	width: 100%;
+	display:block;
+	margin-bottom: 3px;
+	opacity: 0.1;
+	transition: opacity 2s,transform 2s;
+
+}
+.image:hover{
+	opacity: 1;
+	box-shadow: 0 0 30px 5px black;
+	transform: scale(1.2) rotate(5deg);
+	z-index: 10;
+}
